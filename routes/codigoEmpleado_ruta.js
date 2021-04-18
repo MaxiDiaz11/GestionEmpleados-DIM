@@ -5,7 +5,7 @@ const codigoModel = require('../models/ModelCodigoPersonal');
 router.get('/obtenerCodigos', async (req, res) => {
   resultado = await codigoModel.obtenerListadoDeCodigos();
   resultado.success == false
-    ? res.status(500).json({error: resultado.mensaje})
+    ?  res.status(500).json({error: resultado.mensaje})
     : res.status(200).json({
         codigo: resultado.rows,
         cant_reg: resultado.rows.length,

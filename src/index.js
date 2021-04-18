@@ -15,6 +15,9 @@ app.use(express.json());
 // ruta codigoPersonal
 app.use('/personal/CodigoPersonal', require('../routes/codigoEmpleado_ruta'));
 
+app.use('/empleado', require('../routes/empleado_ruta'));
+
+
 app.listen(app.get('port'), () => {
   console.log(`Server on port ${app.get('port')}`);
 });
