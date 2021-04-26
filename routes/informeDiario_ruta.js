@@ -1,10 +1,9 @@
-const express = require('express');
-const {jsPDF} = require('jspdf');
-const modelInformeDiario = require('../models/ModelInformeDiario');
+const express = require("express");
+const modelInformeDiario = require("../models/ModelInformeDiario");
 
 const router = express.Router();
 
-router.get('/generarInforme', async (req, res) => {
+router.get("/generarInforme", async (req, res) => {
   resultado = await modelInformeDiario.imprimirInformeDiario();
   if (resultado.success == false) {
     res.status(500).json({
@@ -12,13 +11,11 @@ router.get('/generarInforme', async (req, res) => {
       success: resultado.success,
     });
   } else {
-    // crearInformeDiario(resultado.rows);
-    console.log(resultado.rows);
+    console.log(resultado);
     res.status(200).json({
-      empleado: resultado.rows,
-      cant_reg: resultado.rows.length,
+      grupos: resultado.resultado,
       success: true,
-      mensaje: 'OK',
+      mensaje: "OK",
     });
   }
 });
