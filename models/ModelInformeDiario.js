@@ -433,6 +433,63 @@ module.exports = {
               },
             ],
           },
+
+          {
+            codigo: 4,
+            tipo_template: "TEMPLATE_GENERAL",
+            nombre: "Departamento General",
+            subgrupo: [
+              {
+                codigo: 500,
+                tipo_template: "TEMPLATE_GENERAL_SUB1",
+                nombre_subgrupo: "Ordenanzas municipales",
+                empleados: [  
+                  {
+                    id_usuario: 1,
+                    nro_afiliado: 25561,
+                    apellido: "JUAN",
+                    nombre: "Alvaro Eugenio",
+                    dcto_exp: 1,
+                    observacion: "subsecretario",
+                    horario_laboral: "8 a 13 hs",
+                  },      
+                ],
+              },
+              {
+                codigo: 700,
+                tipo_template: "TEMPLATE_GENERAL_SUB2",
+                nombre_subgrupo: "Cobranzas",
+                empleados: [  
+                  {
+                    id_usuario: 2,
+                    nro_afiliado: 25561,
+                    apellido: "Julian",
+                    nombre: "Eugenio",
+                    dcto_exp: 1,
+                    observacion: "subsecretario",
+                    horario_laboral: "8 a 13 hs",
+                  },      
+                ],
+              },
+              {
+                codigo: 800,
+                tipo_template: "TEMPLATE_GENERAL_SUB3",
+                nombre_subgrupo: "Informatica",
+                empleados: [  
+                  {
+                    id_usuario: 3,
+                    nro_afiliado: 25561,
+                    apellido: "Franco",
+                    nombre: "Alvaro",
+                    dcto_exp: 1,
+                    observacion: "subsecretario",
+                    horario_laboral: "8 a 13 hs",
+                  },      
+                ],
+              },
+            ],
+          },
+
         ],
       };
 
