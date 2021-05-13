@@ -118,7 +118,7 @@ module.exports = {
           horarioLaboralHasta,
           fechaIngreso,
           fechaSalida,
-          idCodigoPersonal,
+          idCodigoPersonal, 
           idGrupo,
           id_usuario,
         ]
