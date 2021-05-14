@@ -447,8 +447,8 @@ module.exports = {
                   {
                     id_usuario: 1,
                     nro_afiliado: 25561,
-                    apellido: "JUAN",
-                    nombre: "Alvaro Eugenio",
+                    apellido: "Julian",
+                    nombre: "Alvaro",
                     dcto_exp: 1,
                     observacion: "subsecretario",
                     horario_laboral: "8 a 13 hs",
@@ -463,8 +463,8 @@ module.exports = {
                   {
                     id_usuario: 2,
                     nro_afiliado: 25561,
-                    apellido: "Julian",
-                    nombre: "Eugenio",
+                    apellido: "Diaz",
+                    nombre: "Maxi",
                     dcto_exp: 1,
                     observacion: "subsecretario",
                     horario_laboral: "8 a 13 hs",
@@ -479,8 +479,8 @@ module.exports = {
                   {
                     id_usuario: 3,
                     nro_afiliado: 25561,
-                    apellido: "Franco",
-                    nombre: "Alvaro",
+                    apellido: "asfo",
+                    nombre: "Franco",
                     dcto_exp: 1,
                     observacion: "subsecretario",
                     horario_laboral: "8 a 13 hs",
